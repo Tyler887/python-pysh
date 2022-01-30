@@ -17,7 +17,7 @@ while True:
   command = input("PYSH " + cd + " > ")
   if command == "print" or command == "print ":
     print("pysh aborted as it found a bug in your command!\nbug: cannot use only `print', must set input for operation")
-  else if command == "exit":
+  elif command == "exit":
     exitconf = input("Are you sure you want to exit PyShell? (y/n)")
     if exitconf == y:
       exit(0)
