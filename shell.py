@@ -23,7 +23,7 @@ while True:
       exit(0)
   elif command == "commands":
      print("Commands: print, commands, exit\nTo add more commands, submit a pull request at https://github.com/Tyler887/python-pysh.")
-  else:
+  elif not command.startswith("print "):
     print("Command not found. Run `commands' for a list of commands.\nHINT: This error counts as a bug. If you tried to use\necho, you should change it to print.")
   if command.startswith("print "):
     echo = command.replace('print ', '', 1)
