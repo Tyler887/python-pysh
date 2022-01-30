@@ -21,7 +21,7 @@ while True:
     exitconf = input("Are you sure you want to exit PyShell? (y/n)\nanswer: ")
     if exitconf == "y":
       exit(0)
-  elif command = "commands":
+  elif command == "commands":
      print("Commands: print, commands, exit\nTo add more commands, submit a pull request at https://github.com/Tyler887/python-pysh.")
   else:
     print("Command not found. Run `commands' for a list of commands.\nHINT: This error counts as a bug. If you tried to use\necho, you should change it to print.")
