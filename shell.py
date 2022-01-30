@@ -6,6 +6,15 @@ print("")
 import os
 import pip
 import platform
+import signal
+import time
+ 
+def handler(signum, frame):
+    res = input("Do you really want to exit PySH? y/n ")
+    if res == 'y':
+        exit(0)
+ 
+signal.signal(signal.SIGINT, handler)
 while True:
   cd = os.getcwd()
   command = input(cd + "> ")
