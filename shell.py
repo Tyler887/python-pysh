@@ -6,8 +6,8 @@ print("")
 import os
 import pip
 import platform
-import pip.colorit
-init_colorit()
+import pip._vendor.colorama
+from pip._vendor.colorama import init, Fore, Back, Style
 
 while True:
   cd = os.getcwd()
@@ -21,7 +21,8 @@ while True:
   elif command == "commands":
      print("Commands: print, commands, exit\nTo add more commands, submit a pull request at https://github.com/Tyler887/python-pysh.")
   elif not command.startswith("print "):
-    print(color("Command not found or misused. Run `commands' for a list of commands.\nHINT: This error counts as a bug. If you tried to use\necho, you should change it to print.", colors.Red))
+    print(color("Command not found or misused. Run `commands' for a list of commands.\nHINT: This error counts as a bug. If you tried to use\necho, you should change it to print.", Fore.Red))
+    print(Style.RESET_ALL)
   if command.startswith("print "):
     echo = command.replace('print ', '', 1)
     print(echo)
