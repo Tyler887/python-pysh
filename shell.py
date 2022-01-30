@@ -8,7 +8,7 @@ import pip
 import platform
 import signal
 import time
-from colorit import *
+import colorit
 
 # Use this to ensure that ColorIt will be usable by certain command line interfaces
 init_colorit()
