@@ -12,5 +12,5 @@ while True:
   if command == "print" or command == "print ":
     print("pysh aborted as it found a bug in your command!\nbug: cannot use only `print', must set input for operation")
   if command.startswith("print "):
-    echo = command('print ', '', 1)
+    echo = command.replace('print ', '', 1)
     print(echo)
