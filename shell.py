@@ -8,8 +8,7 @@ import pip
 import platform
 import signal
 import time
-from colorama import init
-from termcolor import colored
+from termcolor import colored, cprint
  
 
 while True:
