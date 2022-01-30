@@ -9,17 +9,16 @@ import platform
 import signal
 import time
  
-def handler(signum, frame):
-    res = input("Do you really want to exit PySH? y/n ")
-    if res == 'y':
-        exit(0)
+
  
-signal.signal(signal.SIGINT, handler)
+
 while True:
   cd = os.getcwd()
-  command = input(cd + "> ")
+  command = input("PYSH " + cd + " > ")
   if command == "print" or command == "print ":
     print("pysh aborted as it found a bug in your command!\nbug: cannot use only `print', must set input for operation")
+  else
+    print("Command not found. Run help for a list of commands.")
   if command.startswith("print "):
     echo = command.replace('print ', '', 1)
     print(echo)
