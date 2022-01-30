@@ -8,8 +8,8 @@ import pip
 import platform
 import signal
 import time
- 
-
+from colorama import init
+init()
  
 
 while True:
@@ -24,7 +24,8 @@ while True:
   elif command == "commands":
      print("Commands: print, commands, exit\nTo add more commands, submit a pull request at https://github.com/Tyler887/python-pysh.")
   elif not command.startswith("print "):
-    print("Command not found or misused. Run `commands' for a list of commands.\nHINT: This error counts as a bug. If you tried to use\necho, you should change it to print.")
+    print(Fore.RED + "Command not found or misused. Run `commands' for a list of commands.\nHINT: This error counts as a bug. If you tried to use\necho, you should change it to print.")
+    print (Style.RESET_ALL)
   if command.startswith("print "):
     echo = command.replace('print ', '', 1)
     print(echo)
