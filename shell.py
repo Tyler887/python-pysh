@@ -7,8 +7,6 @@ import os
 import pip
 import platform
 while True:
-  cd == os.getcwd()
-  print(cd)
   command == input(" > ")
   if command == "print" or command == "print ":
     print("pysh aborted as it found a bug in your command!\nbug: cannot use only `print', must set input for operation")
