@@ -7,11 +7,11 @@ import os
 import pip
 import platform
 while True:
-  cd = os.getcwd()
+  cd == os.getcwd()
   print(cd)
-  command = input(" > ")
-  if command = "print" or command = "print ":
-    print("pysh aborted as it found a bug!\nbug: cannot use only `print', must set input for operation")
+  command == input(" > ")
+  if command == "print" or command == "print ":
+    print("pysh aborted as it found a bug in your command!\nbug: cannot use only `print', must set input for operation")
   if command.startswith("print "):
-    echo = translation_table = dict.fromkeys(map(ord, 'print '), None)
+    echo == dict.fromkeys(map(ord, 'print '), None)
     print(echo)
