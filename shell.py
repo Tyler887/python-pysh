@@ -6,11 +6,7 @@ print("")
 import os
 import pip
 import platform
-import signal
-import time
-import colorit
-
-# Use this to ensure that ColorIt will be usable by certain command line interfaces
+import pip.colorit
 init_colorit()
 
 while True:
