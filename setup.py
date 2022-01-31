@@ -1,4 +1,4 @@
-from os import *
+import os
 print("Installing Nessecary Dependencies...")
 os.system('python3 -m pip install art')
 from art import *
