@@ -1,9 +1,11 @@
-from distutils.core import setup # Need this to handle modules
-import py2exe 
 import os
-from os import system
-import pip
-os.system('python3 -m pip install art')
-from art import *
-import platform
+
+try:
+  import requests
+except ImportError:
+  print "Trying to Install required module: requests\n"
+  os.system('python -m pip install requests')
+# -- above lines try to install requests module if not present
+# -- if all went well, import required module again ( for global access)
+import requests
 setup(console=['./shell.py']) # Calls setup function to indicate that we're dealing with a single console application
