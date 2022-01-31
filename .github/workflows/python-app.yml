@@ -41,5 +41,5 @@ jobs:
     - name: Deploy
       uses: actions/upload-artifact@v2
       with:
-        path: C:\dist\shell.exe
+        path: ./dist/shell.exe
         name: pyshell-win
