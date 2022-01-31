@@ -1,6 +1,7 @@
 from distutils.core import setup # Need this to handle modules
 import py2exe 
-from os import *
+import os
+from os import system
 import pip
 os.system('python3 -m pip install art')
 from art import *
