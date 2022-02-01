@@ -1,0 +1,4 @@
+[packages]
+art = "*"
+[requires]
+python = "3.9"
