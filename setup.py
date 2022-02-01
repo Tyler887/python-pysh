@@ -1,7 +1,12 @@
-import os
-print("Installing Nessecary Dependencies...")
-os.system('python3 -m pip install art')
-from art import *
-from platform import *
-import py2exe
-py2exe(console=['.\shell.py']) # Calls setup function to indicate that we're dealing with a single console application
+
+  from glob import glob
+
+  data_files = [("Microsoft.VC90.CRT", glob(r'.\*.*'))]
+
+  setup(
+
+    data_files=data_files,
+
+    etc
+
+  )
