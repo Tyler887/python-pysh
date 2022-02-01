@@ -1,6 +1,7 @@
 import os
 print("Installing Nessecary Dependencies...")
 os.system('python3 -m pip install art')
+os.system('python3 -m pip install Setup')
 from art import *
 from platform import *
 from setup import *
