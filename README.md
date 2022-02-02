@@ -12,4 +12,9 @@ PySH is work in progress. I would enjoy it if you would add more commands, fix b
 ### IDLE
 Download PySH if you havent, open the IDLE Shell, open the `shell.py`, and run it.
 
-Note that some commands like `cls` will not work since unlike using the interpreter, they open in your internal terminal and not the IDLE Shell.
+Note that some commands like `cls` will not work since unlike using the interpreter, they open in the system terminal (Windows 11 terminal or something like that) and not the IDLE Shell.
+## Q&A
+### Is PySH free for commercial use? In addition, can I make modified versione?
+For both, yes. PyShell is completely free of charge, and you may modify it or commercialy use it.
+
+(Warning: "Completely free of charge" must not be confused with "completely free". Python PySH is copyrighted software, *not* public domain software. There are some restrictions on redistribution and use, see the [`LICENSE` file](LICENSE).)
