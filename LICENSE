@@ -22,7 +22,12 @@ modification, are permitted provided that the following conditions are met:
    contributors may be used to endorse or promote products derived from
    this software without specific prior written permission.
 
-5. You must not claim that you own the software or Python. 
+5. You must not claim that you own the software or Python. This also applies
+   to private and noncommercial usage of PySH.
+
+6. Before publishing your redistributed version of PySH, at least one change
+   must be made. You may not name your redistributed PySH a successor name like
+   "PySH++".
 
 THIS SOFTWARE IS PROVIDED BY PYSHELL'S CONTRIBUTORS "AS IS" AND ANY EXPRESS OR
 IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
