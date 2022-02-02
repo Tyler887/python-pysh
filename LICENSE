@@ -1,6 +1,6 @@
 PySH License
 
-Copyright (c) 2022, Tyler887
+Copyright (c) 2022, PySH contributors.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -13,15 +13,18 @@ modification, are permitted provided that the following conditions are met:
    this list of conditions and the following disclaimer in the documentation
    and/or other materials provided with the distribution.
 
-3. All advertising materials mentioning features or use of this software must
+3. We would appreciate it if all advertising materials mentioning features or use of this software
    display the following acknowledgement:
      This product includes software developed by the contributors of PySH. Visit https://github.com/Tyler887/python-pysh/contributors.
+   This is not required.
 
 4. Neither the name of the PyShell command line nor the names of its
    contributors may be used to endorse or promote products derived from
    this software without specific prior written permission.
 
-THIS SOFTWARE IS PROVIDED BY COPYRIGHT HOLDER "AS IS" AND ANY EXPRESS OR
+5. You must not claim that you own the software or Python. 
+
+THIS SOFTWARE IS PROVIDED BY PYSHELL'S CONTRIBUTORS "AS IS" AND ANY EXPRESS OR
 IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
 MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
 EVENT SHALL COPYRIGHT HOLDER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
