@@ -1,0 +1,10 @@
+name: Create installer + Deploy
+
+on: push
+
+jobs:
+  build-and-deploy:
+    runs-on: windows-2019
+    steps:
+      - uses: actions/checkout@v2
+      - run: iscc ".\setup.iss"
