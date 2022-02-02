@@ -17,6 +17,6 @@ Note that some commands like `cls` will not work since unlike using the interpre
 ### Is PySH free for commercial use? In addition, can I make modified versions?
 For both, yes. PyShell is completely free of charge, and you may modify it or commercially use it.
 
-**Warning for all users - PLEASE READ**<br />
+**Warning for all users - PLEASE READ** ([⚓ copyright-warning](#copyright-warning))<br />
 <a name="copyright-warning"></a>
 "Completely free of charge" must not be confused with "completely free". Python PySH is copyrighted software, *not* public domain software. There are some restrictions on redistribution and use, see the [`LICENSE` file](LICENSE).
