@@ -8,3 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: iscc ".\setup.iss"
+      - name: ready to deploy!
+        uses: actions/upload-artifact@v2
+        with:
+          name: is-setup
+          path: D:\a\python-pysh\python-pysh\Output\mysetup.exe
