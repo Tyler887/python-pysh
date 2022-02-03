@@ -38,11 +38,11 @@ jobs:
       run: |
         python3 -m pip install py2exe
         python3 ./setup.py py2exe
-      - run: choco install innosetup
-      - run: iscc ".\setup.iss"
-      - run: mv ".\Output\mysetup.exe" ".\Output\pysh-get.exe"
-      - name: ready to deploy!
-        uses: actions/upload-artifact@v2
-        with:
+    - run: choco install innosetup
+    - run: iscc ".\setup.iss"
+    - run: mv ".\Output\mysetup.exe" ".\Output\pysh-get.exe"
+    - name: ready to deploy!
+      uses: actions/upload-artifact@v2
+      with:
           name: is-setup
           path: D:\a\python-pysh\python-pysh\Output\pysh-get.exe
