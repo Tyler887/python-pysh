@@ -1,15 +1,21 @@
+# PySH: A shell written in Python, tested on CPython
+# License: PySH License + GPL-3.0-or-later, see the LICENSE file or type "license" in the shell
+#
+# Why?
+  # PySH was created to correct the buggy
+  # Microsoft PowerShell commands and it's
+  # incorrect type syntax.
+  # It is a free and open source shell,
+  # which can also execute commands outside
+  # itself.
+################# CODE BELOW #################
 import os
 from os import *
 import time
 # thanks stack overflow
 os.system('cls' if os.name=='nt' else 'clear')
-
 print("Loading...")
-
-
 os.system('python3 -m pip install -U pip')
-
-
 os.system('python3 -m pip install -U art colorama --exists-action s')
 from art import * 
 from colorama import *
