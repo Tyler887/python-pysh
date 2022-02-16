@@ -26,5 +26,3 @@ You can run `commands` to see the list of commands. If you cannot understand the
 You need Python 3.9 or any later version to use PySH, as specified in the Pipfile.
 ### Why does PySH have to download dependencies from PyPI that I already installed?
 PySH uses features in Python not bundled with Python. It must download dependencies in order to download them. If you have an older version, you must read the `shell.py`, copy the dependency functions, import the OS module, and run those dependency functions with an addition of the `--upgrade` option to update all dependencies.
-### When will this be ported to [Go](https://golang.org)? It's faster than Python.
-Maybe after I know how I create a standalone "CLI" in Go. I know Golang is faster than Python, according to a Stack Overflow post. It says, "Go is the way to Go", and I think the post was "true". I saw `gh` which ran faster than `pysh`, LOL ;)
