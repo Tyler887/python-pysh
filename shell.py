@@ -21,7 +21,7 @@ from colorama import *
 os.system('cls' if os.name=='nt' else 'clear')
 cd2 = os.path.dirname(os.path.realpath(__file__))
 tprint("PyShell")
-print("               version 1.0 // type `update'")
+print("               version 1.1 // type `update'")
 print(Fore.GREEN + "H" + Fore.BLUE + "e" + Fore.CYAN + "l" + Fore.YELLOW + "l" + Fore.RED + "o" + Style.RESET_ALL + "!")
 print("type `commands' if you don't know what you can do in this shell")
 print("")
