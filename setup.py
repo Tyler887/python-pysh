@@ -7,12 +7,12 @@ class Target:
         self.version = "1.1"
         self.company_name = "Tyler Eight-Eight-Seven"
         self.copyright = "Copyright (c) 2022 Tyler887, All Rights Reserved"
-        self.name = "My Program"
+        self.name = "PyShell"
 
 target = Target(
     description = "The PyShell project is an open source project to make advanced users more productive.",
     script = "shell.py",
-    dest_base = "PyShell")
+    dest_base = "shell")
 setup(
     options = {'py2exe': {'bundle_files': 1,
                           'compressed': True}},
