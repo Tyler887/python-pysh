@@ -32,7 +32,6 @@ print("Launching PySH...")
 
 # thanks stack overflow
 os.system('cls' if os.name=='nt' else 'clear')
-cd2 = os.path.dirname(os.path.realpath(__file__))
 tprint("PyShell")
 print("               version 1.1 // type `update'")
 print(Fore.GREEN + "H" + Fore.BLUE + "e" + Fore.CYAN + "l" + Fore.YELLOW + "l" + Fore.RED + "o" + Style.RESET_ALL + "!")
@@ -76,7 +75,6 @@ while True:
     print("Machine                 ", platform.machine())
     print("Architecture            ", platform.architecture())
     print("Python                  ", platform.python_version())
-    print("Path to PyShell         ", cd2)
   elif command == "version":
     print("1.1 Open Source")
     print("more info: run `info'")
