@@ -12,7 +12,7 @@ class Target:
 target = Target(
     description = "The PyShell project is an open source project to make advanced users more productive.",
     script = "shell.py",
-    dest_base = "shell")
+    dest_base = "pysh")
 setup(
     options = {'py2exe': {'bundle_files': 1,
                           'compressed': True}},
