@@ -1,5 +1,5 @@
 # PySH: A shell written in Python, tested on CPython
-# License: PySH License + GPL-3.0-or-later, see the LICENSE file or type "license" in the shell
+# License: PySH License + GPL-3.0-or-later, see the LICENSE file
 #
 # Why?
   # PySH was created to correct the buggy
