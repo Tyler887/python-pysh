@@ -44,7 +44,6 @@ deptitle = "Deprecerated"
 import platform
 if platform.system() == "Windows":
   os.system('title PyShell 1.1 Beta - ' + os.getcwd())
-import tkinter as tk
 while True:
   cd = os.getcwd()
   command = input(Back.WHITE + Fore.BLACK + " PYSH " + Style.RESET_ALL + " " + cd + " > ")
