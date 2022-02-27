@@ -8,7 +8,7 @@ PySH is work in progress. I would enjoy it if you would add more commands, fix b
 **I do not offer any warranty for PySH. Use it at your own risk.**
 ## Run
 ### Interpreter
-[Download PySH](https://github.com/tyler887/python-pysh/releases) if you havent and open the `shell.py`.
+[Download PySH](https://github.com/tyler887/python-pysh/releases "Releases") if you havent and open the `shell.py`.
 ### IDLE
 Download PySH if you havent, open the IDLE Shell, open the `shell.py`, and run it.
 
@@ -17,9 +17,9 @@ Note that some commands like `cls` will not work since unlike using the interpre
 ### Is PySH free for commercial use? In addition, can I make modified versions?
 For both, yes. PyShell is completely free of charge, and you are welcome to modify it or commercially use it. PySH is considered free, which requires these rights. You do not need permission in order to redistribute PySH - just download it!
 
-**Warning for all users - PLEASE READ** ([⚓ copyright-warning](#copyright-warning))<br />
+**Warning for all users - PLEASE READ** ([⚓ copyright-warning](#copyright-warning "Anchor link"))<br />
 <a name="copyright-warning"></a>
-"Completely free of charge" must not be confused with "completely free". Python PySH is copyrighted software, *not* public domain software. There are some restrictions on redistribution and use, see the [`LICENSE` file](LICENSE).
+"Completely free of charge" must not be confused with "completely free". Python PySH is copyrighted software, *not* public domain software. There are some restrictions on redistribution and use, see the [`LICENSE` file](LICENSE "LICENSE").
 ### What can I do?
 You can run `commands` to see the list of commands. If you cannot understand the list, try `print Hello world!` for the old-school Hello World in the shell.
 ### What is the minimum Python version required for PySH?
