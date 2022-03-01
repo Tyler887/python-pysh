@@ -10,7 +10,7 @@ class Target:
         self.name = "PyShell"
 
 target = Target(
-    description = "The PyShell project is an open source project to make advanced users more productive.",
+    description = f"PyShell Windows Binary Build {self.version}",
     script = "shell.py",
     dest_base = "pysh")
 setup(
