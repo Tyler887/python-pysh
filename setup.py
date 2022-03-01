@@ -10,7 +10,7 @@ class Target:
         self.name = "PyShell"
 
 target = Target(
-    description = f"PyShell Windows Binary Build {self.version}",
+    description = "PyShell Windows Binary Build",
     script = "shell.py",
     dest_base = "pysh")
 setup(
